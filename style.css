@@ -701,3 +701,112 @@ footer a:hover {
     padding: 0 20px;
   }
 }
+
+/* SHOP.HTML */
+
+#page-header {
+  background-image: url("img/ban/b1.jpg");
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 14px;
+}
+
+#page-header h2,
+#page-header p {
+  color: #fff;
+}
+
+#pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.pagination-block {
+  height: 44px;
+  width: 44px;
+  background-color: #088178;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.pagination-block:hover {
+  background-color: #055c56;
+}
+
+.pagination-block.active {
+  background-color: #055c56;
+}
+
+#pro-details {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#pro-details .single-pro-details {
+  width: 35%;
+  padding-top: 30px;
+}
+
+#pro-details .single-pro-details h4 {
+  padding: 40px 0 20px 0;
+}
+
+#pro-details .single-pro-details h2 {
+  font-size: 26px;
+}
+
+#pro-details .single-pro-details select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#pro-details .single-pro-details input {
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#pro-details .single-pro-details button {
+  background-color: #088178;
+  color: #fff;
+}
+
+#pro-details .single-pro-details span {
+  line-height: 25px;
+}
+
+#pro-details .single-pro-image{
+  width: 35%;
+  margin-right: 50px;
+}
+
+
+
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
